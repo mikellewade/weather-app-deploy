@@ -19,7 +19,7 @@ Follow the steps below to deploy to GitHub Pages using `parcel`
 6. Add a `"scripts"` section to your `package.json`:
     ```json
     "scripts": {
-        "predeploy": "rm -rf dist && np, run build",
+        "predeploy": "rm -rf dist && npm run build",
         "deploy": "gh-pages -d dist",
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "parcel index.html ",
