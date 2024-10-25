@@ -1,0 +1,116 @@
+body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template: 12.5% 12.5% 9.375% 9.375% 9.375% 9.375% 9.375% 9.375% 9.375% 9.375% / 20% 20% 20% 20% 20%;
+    /* border-radius: 100px; */
+    border-style: solid;
+    padding: 10px;
+    border: 10px;
+    border-width: 10px;
+    border-color: black;
+}
+
+#defaultCity {
+    grid-row-start: 9;
+    grid-row-end: 10;
+    color: black;
+    background-color: lightpink;
+}
+
+#cityinput {
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+#real-time-temp {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    color: black;
+    background-color: lightpink;
+}
+
+#temp {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#up {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    color: black;
+    background-color: rgb(233, 192, 250);
+}
+
+#down {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    color: black;
+    background-color: rgb(233, 192, 250);
+}
+
+#temperature-now {
+    text-align: center;
+    font-size: 400%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+#sky {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#sky-drop-down {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: lightblue;
+}
+
+#weather-garden {
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#header_id2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header_id1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#city {
+    background-color: lightblue;
+}
