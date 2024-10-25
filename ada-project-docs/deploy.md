@@ -3,7 +3,7 @@
 Follow the steps below to deploy to GitHub Pages using `parcel`
 
 1. Create a new branch called `deployed-version` and switch to it.
-2. Install `parcel-bundler`
+2. Install `parcel`
     ```bash
     npm install parcel -D
     ```
